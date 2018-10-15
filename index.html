@@ -2,11 +2,57 @@
 <html>
   <head>
     <title>Cipher</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <h1>Cipher</h1>
+
+
+    <div class ="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div id=panelone class="panelstyle" class="panel-default">
+            <p> Click this Button to run Cipher:</p> <button onclick="script()">Click Here</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id=paneltwo class="panelstyle" class="panel-default">
+            <p> Blah Blah </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id=panelthree class="panelstyle" class="panel-default">
+            <p> Blah Blah </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
+    <!--<script>
+      function script() {
+        var str = prompt("Enter sentence to be ciphered");
+
+        var newstrLF = function(str){
+          var first = str.charAt(0).toUpperCase();
+          var last = str.charAt(str.length-1).toUpperCase();
+          return last + first;
+        };
+
+        var count = function(str){
+          var length = (str.length)/2;
+          var letter = str.charAt(length - 1);
+          return letter;
+        };
+
+        var newstrTwo = count(str) + str + newstrLF(str);
+
+        newstrTwo = newstrTwo.split("");
+        newstrTwo = newstrTwo.reverse();
+        newstrTwo = newstrTwo.join("");
+        alert(newstrTwo);
+      }
+    </script>-->
   </body>
 </html>

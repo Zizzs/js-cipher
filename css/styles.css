@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+#panelone {
+  width = 400px;
+  height = 400px;
+  background-color: gray;
+}
+
+#paneltwo {
+  width = 400px;
+  height = 400px;
+  background-color: gray;
+}
+
+#panelthree {
+  width = 400px;
+  height = 400px;
+  background-color: gray;
+}
