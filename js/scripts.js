@@ -27,10 +27,10 @@ function script() {
   alert(newstrTwo);
 }
 
-jQuery("p").click(function() {
+$("p").click(function() {
   alert("This is a Paragraph.");
 })
 
-jQuery("img").click(function() {
+$("img").click(function() {
   alert("This is an image.");
 })
