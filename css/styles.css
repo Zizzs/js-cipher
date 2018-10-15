@@ -2,19 +2,24 @@ body {
   background-color: black;
 }
 #panelone {
-  width = 400px;
-  height = 400px;
+  width:400px;
+  height: 400px;
   background-color: gray;
 }
 
 #paneltwo {
-  width = 400px;
-  height = 400px;
+  width: 400px;
+  heigh: 400px;
   background-color: gray;
 }
 
 #panelthree {
-  width = 400px;
-  height = 400px;
+  widt: 400px;
+  height: 400px;
   background-color: gray;
+}
+
+#doggyimage {
+  height: 300px;
+  width: 400px;
 }

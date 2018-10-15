@@ -1,11 +1,11 @@
 function script() {
   var str = prompt("Enter sentence to be ciphered");
-  
-  var newstrFL = function(str){
-    var first = str.charAt(0).toUpperCase();
-    var last = str.slice(-1).toUpperCase();
-    return first + last;
-  };
+
+  //var newstrFL = function(str){
+  //  var first = str.charAt(0).toUpperCase();
+    //var last = str.slice(-1).toUpperCase();
+    //return first + last;
+  //};
 
   var newstrLF = function(str){
     var first = str.charAt(0).toUpperCase();
@@ -29,4 +29,8 @@ function script() {
 
 jQuery("p").click(function() {
   alert("This is a Paragraph.");
-});
+})
+
+jQuery("img").click(function() {
+  alert("This is an image.");
+})
