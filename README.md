@@ -1,4 +1,4 @@
-# _Javascript Ci[pher
+# _Javascript Cipher_
 
 #### _A website built to practice basic Javascript, that creates a cipher._
 
